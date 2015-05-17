@@ -1,0 +1,435 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+* {
+    box-sizing: border-box;        
+    font-family: 'Cabin', sans-serif !important;
+
+}
+body{
+  background-color: #191919;
+}
+
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+nav li{
+  display: inline-block;  
+}
+
+h2{
+  font-size: 32px;  
+  padding-bottom: 75px;
+}
+
+h3{
+  font-weight: bold;
+}
+
+p{
+  font-size: 14px;
+}
+
+section{
+  vertical-align: top;
+}
+
+p, b{
+  opacity: 0.8;
+}
+
+.center{
+  text-align: center;
+}
+
+.navbar-links{
+  float: right;
+}
+
+#logo{
+  font-size: 24px;
+}
+
+#logo:hover{
+  opacity: 1;
+}
+
+span.light{
+  opacity: 0.8;
+}
+
+.navbar-links li{
+  padding: 0 15px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: bold;
+}
+
+.navbar-links li:last-child{
+  padding-right: 0;
+}
+
+/* containers */
+
+.container{  
+  display: block;
+  width: 1100px;
+  margin: auto;
+}
+
+.section-container{
+  padding-top: 130px;
+}
+
+.50-50{
+  display: inline-block;
+  width: 50%;
+}
+
+.top{
+  padding-top: 50px;
+  min-height: 675px;
+  background-color: #9b9a95;
+  color: #ffffff;
+}
+
+h1{
+  font-size: 45px;
+}
+
+section.join-us{  
+  padding-top: 200px;
+  width: 650px;
+  text-align: left;
+}
+
+section.join-us p{
+  padding-top: 30px;
+  padding-bottom: 55px;
+}
+
+.btn{
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 4px;  
+  text-transform: uppercase;
+  text-decoration: bold;
+  padding: 18px 20px;  
+  box-sizing: content-box;
+}
+.btn-start{
+  background-color: #4ecb8c;
+}
+.btn-story{
+  border: 2px solid #333333;
+}
+.btn-story{
+  color: #333333;
+}
+.btn-info{
+  border: 2px solid white; 
+}
+
+/* services */
+
+section.services{
+  background-color: #ffffff;
+  min-height: 550px;
+  padding-top: 115px;  
+}
+
+.services article h3{
+  font-size: 14px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.services article{
+  border: 2px solid #f4f4f4;
+  font-size: 12px;
+  text-align: center;
+  padding: 55px 25px 25px 25px;
+}
+
+/* our story */
+section.our-story{
+  background: url(../images/group.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover; 
+  min-height: 600px;
+  padding-top: 125px;  
+  color: white;
+}
+
+.story-part{
+  display: inline-block;
+  width: 50%;
+}
+
+.story-part:last-child{
+  float: right;
+}
+
+.our-story section p{
+  padding-bottom: 35px; 
+}
+
+/* testimonials */
+
+.testimonials{
+  background-color: #ffffff;
+  min-height: 650px;
+  padding-bottom: 120px;
+}
+
+.testimonials h2{
+  text-align: center;
+}
+
+section.articles-container{
+  padding: 20px;
+}
+
+section.articles-container:last-child{
+  float: right;
+}
+
+section.articles-container article{
+  padding-bottom: 100px;
+}
+
+.review p{
+  border: 2px solid #dedede;
+  padding: 25px;  
+  text-align: left;
+}
+
+.author{
+  padding-top: 20px;
+  float: right;
+}
+.author div{
+  display: inline-block;
+}
+
+.author .name-title{
+  position: relative;
+  top: -10px;
+  text-align: right;  
+}
+
+.title{
+  opacity: 0.5;
+}
+
+.name-title{  
+  font-size: 14px;
+}
+
+.name{
+  opacity: 1;
+  font-weight: bold;
+}
+
+.avatar{
+    background-color: #3685c3;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+/* info */
+
+.info{
+  padding-bottom: 140px;
+  background-color: #353535;
+  color: #ffffff;
+}
+
+.experience p{
+  padding-bottom: 30px; 
+}
+
+.container{
+  font-size: 0;
+}
+
+.divided-2{
+  display: inline-block;  
+  width: 50%;
+}
+
+.diagram{
+  font-size: 10px;
+  padding-bottom: 25px;
+  width: 512px;
+}
+.percentage{
+  float: right;
+  position: relative;
+  right: 2%; 
+  font-weight: bold;
+  background-image: url("../images/tooltip.png");
+}
+
+.skills{
+  padding-left: 15px;
+}
+
+.line{
+  height: 16px;
+}
+
+.full{
+  background-color: white;
+  height: inherit;
+}
+
+.filled{
+  background-color: #36c36e;
+  height: inherit;  
+}
+
+.filled.dot-net{
+  width: 75%;
+}
+
+.percentage.dot-net{
+  right: 23%;
+}
+
+.c{
+  width: 95%;
+}
+
+/* blog */
+
+.blog{
+  background-color: white;
+  padding-bottom: 115px;
+}
+
+.divided-3{
+  display: inline-block;  
+  width: 30%;
+  margin: 0 1.5%;
+}
+
+.divided-3:first-child{
+  margin-left: 0;
+}
+
+.divided-3:last-child{
+  margin-right: 0;
+}
+
+.blog-post{
+  padding-top: 30px;
+  text-align: left;
+}
+
+.blog-post h3{
+  font-size: 16px;
+}
+
+.blog-post p{
+  font-size: 14px;
+}
+
+.blog-post span{
+  font-size: 12px;
+}
+
+.blog-data{
+  padding: 10px 0;
+}
+
+.calendar-icon{
+  position: relative;
+  top: 1px;
+}
+
+.comment-icon{
+  padding-left: 30px;
+  position: relative;
+  top: 4px; 
+}
+
+/*.comment-container{
+  padding-left: 30px;
+}*/
+
+/* call-to-action */
+
+.call-to-action{
+  color: white;
+  background-color: #36c36e;
+  padding: 60px 0 60px 0;
+}
+
+.call-to-action h3{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.btn-start-project{
+  border: 2px solid white;
+  /*display: inline-block;*/
+  /*float: right;*/
+} 
+
+.text-area{
+  display: inline-block;
+}
+
+.btn-container{
+  display: inline-block;
+  float: right;
+}
+
+/* footer */
+
+footer{
+  background-color: #232323;
+  color: white;
+  padding: 50px 0 40px 0;
+}
+
+.divided-4{
+  display: inline-block;  
+  width: 20%;
+  margin: 0 1.25%;
+}
+
+.divided-4 #logo{
+  font-size: 24px;
+}
+
+.footer-logo-container{
+  padding-top: 45px;
+}
+
+.divided-4 h3{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.divided-4 p{
+  font-size: 12px;
+}
+
+.address{
+  padding: 20px 0 30px 0;
+}
+
+.footer-address{
+  vertical-align: top;
+}
+
+
+

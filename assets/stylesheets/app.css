@@ -153,7 +153,12 @@ section.services{
   border: 2px solid #f4f4f4;
   font-size: 12px;
   text-align: center;
-  padding: 55px 25px 25px 25px;
+  padding: 0 25px 25px 25px;
+}
+
+.service-icon{
+  position: relative;
+  top: -35px;
 }
 
 /* our story */
